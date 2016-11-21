@@ -1,17 +1,14 @@
-<?php
-/*.
-    require_module 'standard';
-.*/
-?>
 <div id="banner-bottom">
   <div id="banner-content-bottom">
     <div id="banner-content-bottom-left">
          <?php
-         if(file_exists ( "./conf.d/active/appversion.conf.php"))
+         if(file_exists("./conf.d/active/appversion.conf.php"))
          {
+           include_once("./conf.d/active/appversion.conf.php");
            echo "Version ".$versiondata['version'];
            if(file_exists ( "./conf.d/active/version.conf.php"))
            {
+             include_once("./conf.d/active/version.conf.php");
              if(isset($versiondata['id'])){
                if ($versiondata['id'] != "" ){
                  echo " (ID - " .$versiondata['id'].")";
