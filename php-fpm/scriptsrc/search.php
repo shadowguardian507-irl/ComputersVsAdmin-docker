@@ -217,7 +217,8 @@ foreach ($pgrouplist as $pgline)
 	 print "paired computer (".$comptomatch.") found <br />";
 	 print "</div></tr></td>";
       }
-      else
+	   
+      if(!$compfound)
       {
 	 print "<tr><td>";
 	 print '<div id="sec-pc-group-bad">';
