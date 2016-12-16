@@ -6,6 +6,10 @@ ComputersVsAdmin
    * [docker](https://www.docker.com/)
    * [php7 or higher](http://php.net/)
 
+## Notes
+
+> maximum number of supported computers in domain 1000 (bound to max AD page size)
+
 ## How to use
 
     > clone this reposity to disk 
