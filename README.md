@@ -8,7 +8,7 @@ ComputersVsAdmin
 
 ## Notes
 
-> maximum number of supported computers in domain 1000 (bound to max AD page size)
+    > maximum number of supported computers in domain 1000 (bound to max AD page size)
 
 ## How to use
 
